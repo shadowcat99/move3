@@ -154,6 +154,27 @@
                                                                                                                             <field name="NUM">6</field>
                                                                                                                           </block>
                                                                                                                         </value>
+                                                                                                                        <next>
+                                                                                                                          <block type="robot_delay" id="304" inline="true">
+                                                                                                                            <value name="DELAY">
+                                                                                                                              <block type="math_number" id="305">
+                                                                                                                                <field name="NUM">5000</field>
+                                                                                                                              </block>
+                                                                                                                            </value>
+                                                                                                                            <next>
+                                                                                                                              <block type="robot_delay" id="302" inline="true">
+                                                                                                                                <value name="DELAY">
+                                                                                                                                  <block type="math_number" id="303">
+                                                                                                                                    <field name="NUM">5000</field>
+                                                                                                                                  </block>
+                                                                                                                                </value>
+                                                                                                                                <next>
+                                                                                                                                  <block type="movement_stop" id="66"></block>
+                                                                                                                                </next>
+                                                                                                                              </block>
+                                                                                                                            </next>
+                                                                                                                          </block>
+                                                                                                                        </next>
                                                                                                                       </block>
                                                                                                                     </next>
                                                                                                                   </block>
@@ -213,5 +234,4 @@
       </block>
     </next>
   </block>
-  <block type="movement_stop" id="66" x="180" y="-327"></block>
 </xml>
